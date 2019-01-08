@@ -1,0 +1,35 @@
+{
+  "name": "portfolio-dev",
+  "version": "1.0.0",
+  "description": "An attempt at making a portfolio website.",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hsifnus/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "melonfishy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hsifnus/portfolio/issues"
+  },
+  "homepage": "https://github.com/Hsifnus/portfolio#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "js-sha256": "^0.9.0",
+    "mongoose": "^5.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
